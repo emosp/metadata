@@ -1,0 +1,12 @@
+/.idea
+/dist
+
+*.log
+.DS_Store
+.env
+.env.backup
+.env.production
+
+pnpm-lock.yaml
+
+node_modules
