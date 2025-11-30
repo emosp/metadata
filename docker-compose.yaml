@@ -1,0 +1,8 @@
+services:
+  metadata:
+    image: emospg/metadata
+    restart: always
+    ports:
+      - "8001:8001"
+    volumes:
+      - "./logs:/app/logs"
